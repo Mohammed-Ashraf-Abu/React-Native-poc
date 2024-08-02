@@ -1,14 +1,5 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Screenshots 
-
-![Alt text](/asserts/screenshots/Video.mp4 "Video Recording")
-![Alt text](/asserts/screenshots/Login_page.png "Login page")
-![Alt text](/asserts/screenshots/login_validation.png "Login Validation")
-![Alt text](/asserts/screenshots/drawer_homepage.png "Drawer Title")
-![Alt text](/asserts/screenshots/Home_page.png "Home page")
-![Alt text](/asserts/screenshots/profile_page.png "Profile Page")
-![Alt text](/asserts/screenshots/settings_page.png "Setting page")
 
 
 # Getting Started
@@ -92,23 +83,6 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## ProjectStructure
-
-project-name/
-├── android/          # Android project files
-├── ios/              # iOS project files
-|── assets/           # Images, fonts, etc.
-│── components/       # Reusable components
-│── screens/          # Screen components
-│── navigation/       # Navigation configuration
-│── App.tsx           # Main app component
-│── index.js          # Entry point
-├── .eslintrc.js      # ESLint configuration
-├── .gitignore        # Git ignore file
-├── package.json      # Project metadata
-└── README.md         # Project documentation
-
-
 ## Required npm packages for the project
 
 1.@react-navigation/native
@@ -118,27 +92,18 @@ project-name/
 5.react-native-safe-area-context
 6.react-native-paper
 
-## Congratulations! :tada:
+## TODO! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+1. Error Hadling 
+2. Story Book 
+3. Test Cases 
+4. Testing in IOS devices 
 
-### Now what?
+## Screenshots 
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-
-
+![Alt text](/asserts/screenshots/Login_page.png "Login page")
+![Alt text](/asserts/screenshots/login_validation.png "Login Validation")
+![Alt text](/asserts/screenshots/drawer_homepage.png "Drawer Title")
+![Alt text](/asserts/screenshots/Home_page.png "Home page")
+![Alt text](/asserts/screenshots/profile_page.png "Profile Page")
+![Alt text](/asserts/screenshots/settings_page.png "Setting page")
