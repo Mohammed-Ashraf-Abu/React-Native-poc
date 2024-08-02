@@ -2,3 +2,5 @@
 node_modules/
 android/*
 android/app/build/*
+android/
+
