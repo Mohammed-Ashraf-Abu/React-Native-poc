@@ -6,10 +6,10 @@
 
 This React Native project is a basic mobile application designed to demonstrate a simple yet effective navigation system across four primary screens: Home, Login, Settings, and Profile. The app features a clean and intuitive layout, providing users with essential functionalities such as:
 
-   1.Home Screen: The main dashboard that welcomes users after a successful login.
-   2.Login Screen: A secure authentication interface with basic validation to ensure correct login credentials.
-   3.Settings Screen: A customizable settings page featuring toggle switches for enabling or disabling various options.
-   4.Profile Screen: A user profile page displaying basic information and options for profile management.
+   1. Home Screen: The main dashboard that welcomes users after a successful login.
+   2. Login Screen: A secure authentication interface with basic validation to ensure correct login credentials.
+   3. Settings Screen: A customizable settings page featuring toggle switches for enabling or disabling various options.
+   4. Profile Screen: A user profile page displaying basic information and options for profile management.
 
 The app focuses on proper navigation flow and basic user interface elements, offering a smooth user experience. It includes limited features such as simple login validation and switch toggles, making it an ideal starting point for beginners looking to understand the fundamentals of React Native development.
 
