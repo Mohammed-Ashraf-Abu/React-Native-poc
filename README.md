@@ -97,14 +97,6 @@ project-name/
 ├── package.json      # Project metadata
 └── README.md         # Project documentation
 
-.
-├── build                   # Compiled files (alternatively `dist`)
-├── docs                    # Documentation files (alternatively `doc`)
-├── src                     # Source files (alternatively `lib` or `app`)
-├── test                    # Automated tests (alternatively `spec` or `tests`)
-├── tools                   # Tools and utilities
-├── LICENSE
-└── README.md
 
 ## Required npm packages for the project
 
@@ -138,8 +130,12 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
-# Outputs
+# Screenshots 
 
-![Alt text](/asserts/screenshots/login_validation.png "Optional Title")
-![Alt text](/asserts/screenshots/profile_page.png "Optional Title")
-![Alt text](/asserts/screenshots/drawer_homepage.png "Optional Title")
+![Alt text](/asserts/screenshots/Video.mp4 "Video Recording")
+![Alt text](/asserts/screenshots/Login_page.png "Login page")
+![Alt text](/asserts/screenshots/login_validation.png "Login Validation")
+![Alt text](/asserts/screenshots/drawer_homepage.png "Drawer Title")
+![Alt text](/asserts/screenshots/Home_page.png "Home page")
+![Alt text](/asserts/screenshots/profile_page.png "Profile Page")
+![Alt text](/asserts/screenshots/settings_page.png "Setting page")
