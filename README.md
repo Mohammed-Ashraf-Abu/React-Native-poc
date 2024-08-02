@@ -97,6 +97,15 @@ project-name/
 ├── package.json      # Project metadata
 └── README.md         # Project documentation
 
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
+
 ## Required npm packages for the project
 
 1.@react-navigation/native
