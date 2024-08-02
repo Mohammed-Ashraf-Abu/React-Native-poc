@@ -81,12 +81,12 @@ Now that you have successfully run the app, let's modify it.
 
 ## Required npm packages for the project
 
-1.@react-navigation/native
-2.@react-navigation/native-stack
-3.@react-navigation/drawer
-4.@react-navigation/bottom-tabs
-5.react-native-safe-area-context
-6.react-native-paper
+1. @react-navigation/native
+2. @react-navigation/native-stack
+3. @react-navigation/drawer
+4. @react-navigation/bottom-tabs
+5. react-native-safe-area-context
+6. react-native-paper
 
 ## TODO! :tada:
 
