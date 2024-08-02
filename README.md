@@ -4,6 +4,24 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+## Description
+
+This React Native project is a basic mobile application designed to demonstrate a simple yet effective navigation system across four primary screens: Home, Login, Settings, and Profile. The app features a clean and intuitive layout, providing users with essential functionalities such as:
+
+   1.Home Screen: The main dashboard that welcomes users after a successful login.
+   2.Login Screen: A secure authentication interface with basic validation to ensure correct login credentials.
+   3.Settings Screen: A customizable settings page featuring toggle switches for enabling or disabling various options.
+   4.Profile Screen: A user profile page displaying basic information and options for profile management.
+
+The app focuses on proper navigation flow and basic user interface elements, offering a smooth user experience. It includes limited features such as simple login validation and switch toggles, making it an ideal starting point for beginners looking to understand the fundamentals of React Native development.
+
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Watchman](https://facebook.github.io/watchman/) (for macOS users)
+- [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) for iOS development
+
 ## Step 1: Install Dependency
 
 ```bash
@@ -26,7 +44,7 @@ npx react-native start
 
 ```
 
-## Step 2: Start your Application
+## Step 3: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
@@ -54,7 +72,7 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+## Step 4: Modifying your App
 
 Now that you have successfully run the app, let's modify it.
 
@@ -62,6 +80,31 @@ Now that you have successfully run the app, let's modify it.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## ProjectStructure
+
+project-name/
+├── android/          # Android project files
+├── ios/              # iOS project files
+|── assets/           # Images, fonts, etc.
+│── components/       # Reusable components
+│── screens/          # Screen components
+│── navigation/       # Navigation configuration
+│── App.tsx           # Main app component
+│── index.js          # Entry point
+├── .eslintrc.js      # ESLint configuration
+├── .gitignore        # Git ignore file
+├── package.json      # Project metadata
+└── README.md         # Project documentation
+
+## Required npm packages for the project
+
+1.@react-navigation/native
+2.@react-navigation/native-stack
+3.@react-navigation/drawer
+4.@react-navigation/bottom-tabs
+5.react-native-safe-area-context
+6.react-native-paper
 
 ## Congratulations! :tada:
 
@@ -86,4 +129,8 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
+# Outputs
+
 ![Alt text](/asserts/screenshots/login_validation.png "Optional Title")
+![Alt text](/asserts/screenshots/profile_page.png "Optional Title")
+![Alt text](/asserts/screenshots/drawer_homepage.png "Optional Title")
