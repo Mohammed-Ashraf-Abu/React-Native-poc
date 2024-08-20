@@ -50,7 +50,7 @@ export default function LoginScreen({navigation}: Props) {
     } else if (!passCheck) {
       errors.userEmail = 'Please enter Valid Password';
     } else if (emailCheck && passCheck) {
-      navigation.navigate('Home');
+      navigation.navigate("Home");
     }
 
     setErr(errors);

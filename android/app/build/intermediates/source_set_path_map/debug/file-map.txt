@@ -27,15 +27,16 @@ com.assignmentapp-lifecycle-livedata-core-2.5.1-25 /home/achu/.gradle/caches/tra
 com.assignmentapp-jetified-autofill-1.1.0-26 /home/achu/.gradle/caches/transforms-4/f9a974fa1110ede972b7541bb0caa8eb/transformed/jetified-autofill-1.1.0/res
 com.assignmentapp-jetified-startup-runtime-1.1.1-27 /home/achu/.gradle/caches/transforms-4/fe3cbdcfd13d5dd976989fc5501c6fc3/transformed/jetified-startup-runtime-1.1.1/res
 com.assignmentapp-constraintlayout-2.0.1-28 /home/achu/.gradle/caches/transforms-4/ff18ce5ce91074d01800a4709d6a852e/transformed/constraintlayout-2.0.1/res
-com.assignmentapp-pngs-29 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/build/generated/res/pngs/debug
-com.assignmentapp-resValues-30 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/build/generated/res/resValues/debug
-com.assignmentapp-packageDebugResources-31 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.assignmentapp-packageDebugResources-32 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.assignmentapp-merged_res-33 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/build/intermediates/merged_res/debug
-com.assignmentapp-debug-34 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/src/debug/res
-com.assignmentapp-main-35 /home/achu/workspace/React Native/Assignment/AssignmentApp/android/app/src/main/res
-com.assignmentapp-packaged_res-36 /home/achu/workspace/React Native/Assignment/AssignmentApp/node_modules/@react-native-community/masked-view/android/build/intermediates/packaged_res/debug
-com.assignmentapp-packaged_res-37 /home/achu/workspace/React Native/Assignment/AssignmentApp/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
-com.assignmentapp-packaged_res-38 /home/achu/workspace/React Native/Assignment/AssignmentApp/node_modules/react-native-reanimated/android/build/intermediates/packaged_res/debug
-com.assignmentapp-packaged_res-39 /home/achu/workspace/React Native/Assignment/AssignmentApp/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
-com.assignmentapp-packaged_res-40 /home/achu/workspace/React Native/Assignment/AssignmentApp/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.assignmentapp-pngs-29 /home/achu/workspace/React-Native-poc/android/app/build/generated/res/pngs/debug
+com.assignmentapp-resValues-30 /home/achu/workspace/React-Native-poc/android/app/build/generated/res/resValues/debug
+com.assignmentapp-packageDebugResources-31 /home/achu/workspace/React-Native-poc/android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.assignmentapp-packageDebugResources-32 /home/achu/workspace/React-Native-poc/android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.assignmentapp-merged_res-33 /home/achu/workspace/React-Native-poc/android/app/build/intermediates/merged_res/debug
+com.assignmentapp-debug-34 /home/achu/workspace/React-Native-poc/android/app/src/debug/res
+com.assignmentapp-main-35 /home/achu/workspace/React-Native-poc/android/app/src/main/res
+com.assignmentapp-packaged_res-36 /home/achu/workspace/React-Native-poc/node_modules/@react-native-community/masked-view/android/build/intermediates/packaged_res/debug
+com.assignmentapp-packaged_res-37 /home/achu/workspace/React-Native-poc/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
+com.assignmentapp-packaged_res-38 /home/achu/workspace/React-Native-poc/node_modules/react-native-reanimated/android/build/intermediates/packaged_res/debug
+com.assignmentapp-packaged_res-39 /home/achu/workspace/React-Native-poc/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
+com.assignmentapp-packaged_res-40 /home/achu/workspace/React-Native-poc/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.assignmentapp-packaged_res-41 /home/achu/workspace/React-Native-poc/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug

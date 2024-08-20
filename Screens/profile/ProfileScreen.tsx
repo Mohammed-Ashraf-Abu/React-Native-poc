@@ -12,7 +12,7 @@ import ButtonComponent from '../../Components/button/Button';
 
 export default function ProfileScreen() {
   return (
-    <View>
+    <ScrollView>
       {/* Profile Image */}
 
       <View style={profileStyle.profileImage}>
@@ -64,6 +64,6 @@ export default function ProfileScreen() {
           </View>
         );
       })}
-    </View>
+    </ScrollView>
   );
 }

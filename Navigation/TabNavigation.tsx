@@ -1,11 +1,10 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from '../Screens/homescreen/HomeScreen';
 import ProfileScreen from '../Screens/profile/ProfileScreen';
 import SettingScreen from '../Screens/setting/SettingScreen';
 import {Platform} from 'react-native';
 import {View} from 'react-native';
 import {Image} from 'react-native';
-import LoginScreen from '../Screens/loginscreen/LoginScreen';
+import DrawerNavigation from './DrawerNavigation';
 
 const Tab = createBottomTabNavigator();
 
@@ -14,30 +13,29 @@ export const BottomTabNavigation = () => {
     <Tab.Navigator
       screenOptions={{
         tabBarShowLabel: false,
-        // keyboardHidesTabBar: false,
         tabBarHideOnKeyboard: true,
         headerShown: false,
         tabBarStyle: {
-          position: 'absolute',
+          position: "relative",
           bottom: 0,
           right: 0,
           left: 0,
           elevation: 0,
-          height: Platform.OS === 'ios' ? 90 : 70,
-          backgroundColor: 'f4f4f4',
+          height: Platform.OS === "ios" ? 90 : 70,
+          backgroundColor: "f4f4f4",
         },
-      }}>
+      }}
+    >
       <Tab.Screen
-        name="home"
-        component={HomeScreen}
+        name="Home_Tab"
+        component={DrawerNavigation}
         options={{
-          // tabBarStyle: {display: 'none'},
           tabBarIcon: ({}) => {
             return (
               <View>
                 <Image
-                  source={require('../asserts/Icons/home.png')}
-                  resizeMode={'contain'}
+                  source={require("../asserts/Icons/home.png")}
+                  resizeMode={"contain"}
                   style={{
                     height: 40,
                     width: 40,
@@ -50,18 +48,15 @@ export const BottomTabNavigation = () => {
       />
 
       <Tab.Screen
-        name="Profile"
+        name="Profile_Tab"
         component={ProfileScreen}
         options={{
-          // headerShown:true,
-          tabBarStyle: {display: 'none'},
-          // tabBarShowLabel: true,
           tabBarIcon: ({}) => {
             return (
               <View>
                 <Image
-                  source={require('../asserts/Icons/profile.png')}
-                  resizeMode={'contain'}
+                  source={require("../asserts/Icons/profile.png")}
+                  resizeMode={"contain"}
                   style={{
                     height: 70,
                     width: 70,
@@ -74,17 +69,16 @@ export const BottomTabNavigation = () => {
       />
 
       <Tab.Screen
-        name="Setting"
+        name="Setting_Tab"
         component={SettingScreen}
         options={{
           headerShown: false,
-          tabBarStyle: {display: 'none'},
           tabBarIcon: ({}) => {
             return (
               <View>
                 <Image
-                  source={require('../asserts/Icons/settings.png')}
-                  resizeMode={'contain'}
+                  source={require("../asserts/Icons/settings.png")}
+                  resizeMode={"contain"}
                   style={{
                     height: 50,
                     width: 50,
@@ -95,16 +89,17 @@ export const BottomTabNavigation = () => {
           },
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Sign-Out"
         component={LoginScreen}
         options={{
+          tabBarStyle: { display: "none" },
           tabBarIcon: ({}) => {
             return (
               <View>
                 <Image
-                  source={require('../asserts/Icons/logout.png')}
-                  resizeMode={'contain'}
+                  source={require("../asserts/Icons/logout.png")}
+                  resizeMode={"contain"}
                   style={{
                     height: 35,
                     width: 35,
@@ -114,7 +109,7 @@ export const BottomTabNavigation = () => {
             );
           },
         }}
-      />
+      /> */}
     </Tab.Navigator>
   );
 };
